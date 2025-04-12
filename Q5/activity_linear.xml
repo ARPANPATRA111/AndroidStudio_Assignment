@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <!--  Set Orientation as "vertical"  -->
+
+    <!--sub view 1-->
+    <View
+        android:id="@+id/view_1"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_height="100dp" />
+
+    <!--sub view 2-->
+    <View
+        android:id="@+id/view_2"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_height="100dp" />
+
+    <!--sub view 3-->
+    <View
+        android:id="@+id/view_3"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_height="100dp" />
+
+    <!--sub view 4-->
+    <View
+        android:id="@+id/view_4"
+        android:background="@color/cardview_dark_background"
+        android:layout_width="wrap_content"
+        android:layout_margin="32dp"
+        android:layout_height="100dp" />
+
+</LinearLayout>
